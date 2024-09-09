@@ -1,0 +1,79 @@
+*{
+    margin:0;
+
+}
+
+nav
+{
+    background-color:beige;
+    color: black;
+    padding: 2%;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+a:hover
+{
+    background-color: rgb(203, 198, 153);
+    color: black;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+@media(max-width: 600px){
+    nav ul{
+        flex-direction: column;
+    }
+}
+.card {
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-family:'Times New Roman', Times, serif;
+}
+.content
+{
+    padding: 0.5rem;
+}
+.button{
+    width: 300px;
+    display: block;
+    padding: 10px 1rem;
+    text-align: center;
+    background-color: powderblue;
+    color: black;
+    border-radius: 8px;
+    border-color: rgb(94, 215, 231);
+}
+.carousel{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: mandatory;
+    margin: 2% auto;
+}
+.carouselitem{
+    width: 80%;
+    height: 300px;
+    flex: none;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.carouselitem:nth-child(1)
+{
+    background-color: palevioletred;
+}
+.carouselitem:nth-child(2)
+{
+    background-color:plum;
+}
+.carouselitem:nth-child(3)
+{
+    background-color:pink;
+}

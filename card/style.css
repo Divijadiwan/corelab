@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Neue ;
+    src: url(fonts/Neue/Neue-Black.otf);
+}
+.logo
+{
+ width: 200px;
+ padding: 2%;
+}
+.card {
+    width: 250px;
+    height: 350px;
+    margin: 70px auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    border-color: black;
+    font-family:Neue;
+}
+.card{
+    background: #E82E21;
+}
+
+.school
+{
+    margin: 20px;
+    color: white;
+
+}
+.line1
+{
+    margin-top: -5%;
+    height: 3px;
+    background: white;
+}
+.line2{
+    margin-top:1%;
+    height: 3px;
+    width: 160px;
+    background: white;
+}
+.status{
+   margin-left: 65%;
+    margin-top: -1.5%;
+    color: white;
+}
+.pic
+{
+    margin: 10%;
+    width: 110px;
+    height: 125px;
+}
+.name
+{
+    margin:60%;
+    margin-top:-28%;
+    font-size: larger;
+}
+.number
+{
+    color: #fff;
+    margin: 30%;
+    margin-top: -35%;
+    
+}
