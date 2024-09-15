@@ -1,0 +1,76 @@
+
+body {
+	background: linear-gradient(-45deg, #c6c2ff,#4718c7);
+    height: 200vh;
+}
+
+.name
+{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight:400;
+}
+.title
+{
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size: 100px;
+}
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end ;
+    margin-top: 15%;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a::before
+{
+    text-decoration: none;
+}
+a
+{
+    text-decoration: none;
+}
+a::after
+{
+    text-decoration: none;
+}
+.arrow
+{
+    color: black;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    transform: translateY(10px);
+}
+.menu
+{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-family: "Montserrat", sans-serif;
+}
+.title1
+{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 30px;
+}
+.list
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
