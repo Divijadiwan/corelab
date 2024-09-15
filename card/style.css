@@ -45,20 +45,20 @@
 }
 .pic
 {
-    margin: 10%;
     width: 110px;
     height: 125px;
 }
-.name
+.content
 {
-    margin:60%;
-    margin-top:-28%;
-    font-size: larger;
+   display: flex;
+   margin-top: 10%;
+   align-items: end;
+   justify-content: space-evenly;
 }
 .number
 {
     color: #fff;
-    margin: 30%;
-    margin-top: -35%;
+    text-align: center;
+    margin-top: 20%;
     
 }
