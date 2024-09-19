@@ -1,0 +1,63 @@
+{
+    "name": "Core Systems Lab",
+    "term": "fall 2024",
+    "students": [ 
+       {
+          "name": "Cara Kwon",
+          "major": "Design & Tech",
+          "age": 20,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Sydney Williams",
+          "major": "Design & Technology",
+          "age": 21,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Divija Diwan",
+          "major": "Design & Technology",
+          "age": 19,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Ananya",
+          "major": "Design and Technology"
+       },
+       {
+          "name": "Malik",
+          "major": "Design and Technology"
+       },
+       {
+          "name": "Rishikaa",
+          "major": "Design and Technology",
+          "age": 19,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Michelle Xing",
+          "major": "Design & Tech",
+          "age": 20,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Jiazhen Luo",
+          "major": "Design and Technology",
+          "age": 20,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Siyu Liu",
+          "major": "Design and Tech",
+          "age": 19,
+          "term": "fall 2024"
+       },
+       {
+          "name": "Jack Ji",
+          "major": "Design and Technology",
+          "age": 21,
+          "term": "fall 2024"
+       }
+    ]	
+ }
+ 
