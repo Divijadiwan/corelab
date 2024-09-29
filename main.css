@@ -3,6 +3,11 @@ body {
 	background: linear-gradient(-45deg, #c6c2ff,#4718c7);
     height: 200vh;
 }
+html{
+
+    scroll-behavior: smooth;
+
+}
 
 .name
 {
