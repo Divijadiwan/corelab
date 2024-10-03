@@ -1,0 +1,134 @@
+ <!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combine and Sort Songs by Play Count</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Upload Two JSON Files to Combine and Sort Songs</h1>
+
+File Upload 
+<label for="fileInput1">Choose first JSON file:</label>
+<input type="file" id="fileInput1" accept=".json">
+<br><br>
+<label for="fileInput2">Choose second JSON file:</label>
+<input type="file" id="fileInput2" accept=".json">
+<br><br>
+
+ Button to sort by play count 
+<button onclick="combineAndSortSongs()">Combine and Sort Songs by Play Count</button>
+
+ Table to display the sorted songs 
+<h2>Sorted Song Play Counts</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Song Name</th>
+            <th>Play Count</th>
+        </tr>
+    </thead>
+    <tbody id="songTableBody">
+    </tbody>
+</table>
+
+<script>
+    let songData1 = [];
+    let songData2 = [];
+    let combinedData = {};
+
+    // Function to handle file upload and process the JSON
+    document.getElementById('fileInput1').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    songData1 = JSON.parse(e.target.result);
+                    alert("First JSON file uploaded successfully!");
+                } catch (error) {
+                    alert('Invalid JSON file for File 1');
+                }
+            };
+            reader.readAsText(file);
+        }
+    });
+
+    document.getElementById('fileInput2').addEventListener('change', function(event) {
+        const file = event.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    songData2 = JSON.parse(e.target.result);
+                    alert("Second JSON file uploaded successfully!");
+                } catch (error) {
+                    alert('Invalid JSON file for File 2');
+                }
+            };
+            reader.readAsText(file);
+        }
+    });
+
+    // Function to combine two song datasets and sort them
+    function combineAndSortSongs() {
+        const allSongs = songData1.concat(songData2);
+        combinedData = {};  // Reset combined data
+
+        // Combine play counts from both datasets
+        allSongs.forEach(entry => {
+            const songName = entry.trackName;
+            if (combinedData[songName]) {
+                combinedData[songName]++;
+            } else {
+                combinedData[songName] = 1; // Initialize play count
+            }
+        });
+
+        // Sort the songs by play count and display them
+        displaySortedSongs();
+    }
+
+    // Function to display sorted songs in the table
+    function displaySortedSongs() {
+        const sortedSongs = Object.entries(combinedData).sort((a, b) => b[1] - a[1]);
+        const tableBody = document.getElementById('songTableBody');
+        tableBody.innerHTML = '';  // Clear existing table
+
+        // Populate the table with sorted songs
+        sortedSongs.forEach(song => {
+            const row = document.createElement('tr');
+            const songNameCell = document.createElement('td');
+            const playCountCell = document.createElement('td');
+
+            songNameCell.textContent = song[0];
+            playCountCell.textContent = song[1];
+
+            row.appendChild(songNameCell);
+            row.appendChild(playCountCell);
+            tableBody.appendChild(row);
+        });
+    }
+</script>
+
+</body>
+</html>
+-->

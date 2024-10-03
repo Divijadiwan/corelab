@@ -1,0 +1,49 @@
+.dot {
+    border-radius: 50%;
+    display: inline-block;
+  }
+  #fun{
+    height: 250px;
+    width: 250px;
+    position:absolute;
+    left:55%;
+    top: 40%;
+    opacity:70% ;
+    background-color: plum;
+  } 
+  #spiritual{
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    left:55%;
+    top: 20%;
+    opacity: 70% ;
+    background-color: rgb(255, 255, 134);
+  }
+  #calm{
+    height: 300px;
+    width: 300px;
+    position:absolute;
+    left:40%;
+    top: 20%;
+    opacity: 70% ;
+    background-color: lightcyan;
+  }
+  #confident{
+    height: 275px;
+    width: 275px;
+    position:absolute;
+    left:43%;
+    top: 50%;
+    opacity:70% ;
+    background-color: lightgrey;
+  }
+  #romantic{
+    height: 250px;
+    width: 250px;
+    position:absolute;
+    left:30%;
+    top: 40%;
+    opacity: 70% ;
+    background-color: pink;
+ }
