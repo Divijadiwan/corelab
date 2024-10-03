@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romantic</title>
+  <link rel="stylesheet" href="rom.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+    <a href="/fun/fun.html" class="dot" id="fun"></a>
+        <a href="/index.html"class="dot" id="romantic"></a>
+        <a href= "/spiritual/spiritual.html" class="dot" id="spiritual"></a>
+        <a href= "/calm/calm.html"  class="dot" id="calm"></a>
+        <a href= "/confident/confident.html"  class="dot" id="confident"></a>
+    </div>
+    
+  <div class="music-player">
+    <!-- Audio Element -->
+    <audio id="audio-player" src=""></audio>
+    <!-- Playlist -->
+    <div class="playlist">
+      <ul id="song-list">
+        <li data-src="allofme.mp3">All of Me</li>
+        <li data-src="Dil Kya Kare.mp3">Dil Kya Kare</li>
+        <li data-src="Mitwa.mp3">Mitwa</li>
+      </ul>
+    </div>
+    <!-- Controls -->
+    <div class="controls">
+      <button id="play-pause-btn">Play</button>
+      <input type="range" id="volume-control" min="0" max="1" step="0.1" value="1">
+    </div>
+    <!-- Display current time and song name -->
+    <p id="current-song">Select a song</p>
+  </div>
+
+  <script src="rom.js"></script>
+</body>
+</html>

@@ -1,3 +1,8 @@
+
+body {
+	background: #ffefde;
+}
+
 .dot {
     border-radius: 50%;
     display: inline-block;
