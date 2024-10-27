@@ -1,0 +1,75 @@
+body{
+    white-space: nowrap;
+    height: 2000px;
+    overflow-y: auto; 
+  overflow-x: hidden; 
+  background-color:#C1663A;
+  font-family: arima;
+}
+.instruction{
+    font-size: 15px;
+    color:#f0c0b1;
+}
+
+.heading{
+    height:100vh;
+    font-family: arima;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 500%;
+    color:#f0c0b1;
+    flex: auto;
+    text-align: center;
+    margin-top: 20%;
+}
+.line1{
+    height:100vh;
+    font-size: 50px;
+    color: #f0c0b1;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: auto;
+    text-align: center;
+}
+.line2{
+    height:100vh;
+    font-size: 50px;
+    color: #f0c0b1;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: auto;
+    text-align: center; 
+}
+.line3{
+    height:100vh;
+    font-size: 50px;
+    color: #f0c0b1;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: auto;
+    text-align: center;  
+}
+.line4{
+    height:100vh;
+    font-size: 50px;
+    color: #f0c0b1;
+    max-width: 800px;
+    margin: 0 auto;
+    flex: auto;
+    text-align: center;  
+}
+.fact1{
+    font-size: 25px;
+    color: #f0c0b1;
+    max-width: 800px;
+    flex: auto;
+    text-align: center;  
+    margin: -10% auto;
+}
+.data1
+{
+    margin-top: 20%;
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
