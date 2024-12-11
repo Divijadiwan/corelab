@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@379&family=Italiana&family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Arima:wght@379&family=Italiana&family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <title>Visualising Tool</title>
+</head>
+<body>
+<div class="container">
+    <div id="container-1">
+        <h1>Welcome to the Visioning Tool</h1>
+        <br>
+        <br>
+        <br>
+        <a class="subtitle" href="#container-2">Align with your Dreams</a>
+
+    </div>
+    <div id="container-2">
+        <h1>How do you feel?</h1>
+        <div class="moods">
+          <button class="feeling"><a class="option" href="#container-5">I feel confident</a></button>
+          <button class="feeling"><a class="option" href="#container-3">I need a boost</a></button>
+        </div>
+    </div>
+   <div id="container-3">
+    <h2>Okay, let's circle back for a second</h2>  
+    <a class="arrow" href="#container-4"><img src="assets/arrow.svg" alt="arrow button"></a>
+   </div> 
+
+   <div id="container-4">
+    <div class="structure">
+        <!-- Card Carousel -->
+        <div class="carousel">
+          <div id="prompt-card" class="card">
+             "Think about one thing that you really wanted and got it!"
+          </div>
+          <br>
+          <button id="next-prompt-button" class="feeling">Next</button>
+        </div>
+    
+        <!-- Input Area -->
+        <div class="input-area">
+          <textarea id="user-response" placeholder="Write your thoughts here..."></textarea>
+        </div>
+        <br>
+        <!-- Continue Button -->
+        <button id="continue-button" class="feeling"><a class="option" href="#container-5">Continue</a></button>
+      </div>    
+   </div> 
+
+   <div id="container-5">
+    <h2>What is your Dream?</h2> 
+    <div class="dreams">
+    <button class="feeling"><a class="option" href="#container-1">Car</a></button>
+    <button class="feeling"><a class="option" href="#container-3">Internship</a></button>
+    <button class="feeling"><a class="option" href="#container-3">Money</a></button>
+   </div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  
+</head>
+<body>
+    <h1>What is your dream?</h1>
+    <button id="myButton">car</button>
+    
+<model-viewer id="car" alt="Car" src="assets/Sports Car.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+<script> const button = document.getElementById('myButton');
+    const modelViewer = document.getElementById('car');
+    
+    button.addEventListener('click', () => {
+        if (modelViewer.style.display === 'none' || modelViewer.style.display === '') {
+          modelViewer.style.display = 'block'; // Show the model
+        } else {
+          modelViewer.style.display = 'none'; // Hide the mode
+        }
+      });</script>
+</body>
+</html>
+

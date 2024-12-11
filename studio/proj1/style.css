@@ -16,6 +16,12 @@ body {
     opacity:70% ;
     background-color: plum;
   } 
+  #fun:hover{
+    animation-name: medium;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
   #spiritual{
     height: 200px;
     width: 200px;
@@ -24,6 +30,9 @@ body {
     top: 20%;
     opacity: 70% ;
     background-color: rgb(255, 255, 134);
+    animation-name: small;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
   #calm{
     height: 300px;
@@ -33,6 +42,9 @@ body {
     top: 20%;
     opacity: 70% ;
     background-color: lightcyan;
+    animation-name: largest;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
   #confident{
     height: 275px;
@@ -42,6 +54,9 @@ body {
     top: 50%;
     opacity:70% ;
     background-color: lightgrey;
+    animation-name: large;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
   #romantic{
     height: 250px;
@@ -51,4 +66,29 @@ body {
     top: 40%;
     opacity: 70% ;
     background-color: pink;
- }
+}
+
+@keyframes medium {
+  0%   {width:250px; height:250px;}
+  100%  {width:275px; height:275px;}
+}
+/* @keyframes full {
+  0%   {width:250px; height:250px;}
+  100%  {width:1000px; height:1000px;}
+}
+
+@keyframes small {
+  0%   {width:200px; height:200px;}
+  50%  {width:250px; height:250px;}
+  100% { width:200px; height:200px;}
+}
+@keyframes large {
+  0%   {width:275px; height:275px;}
+  50%  {width:300px; height:300px;}
+  100% { width:275px; height:275px;}
+}
+@keyframes largest {
+  0%   {width:300px; height:300px;}
+  50%  {width:325px; height:325px;}
+  100% { width:300px; height:300px;}
+}  */
