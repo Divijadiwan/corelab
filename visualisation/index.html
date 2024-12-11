@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@379&family=Italiana&family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Arima:wght@379&family=Italiana&family=Montserrat:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <title>Visualising Tool</title>
 </head>
 <body>
@@ -56,13 +57,45 @@
    <div id="container-5">
     <h2>What is your Dream?</h2> 
     <div class="dreams">
-    <button class="feeling"><a class="option" href="#container-1">Car</a></button>
-    <button class="feeling"><a class="option" href="#container-3">Internship</a></button>
-    <button class="feeling"><a class="option" href="#container-3">Money</a></button>
+    <button class="feeling"><a class="option" href="#container-6">Car</a></button>
+    <button class="feeling"><a class="option" href="#container-6">Internship</a></button>
+    <button class="feeling"><a class="option" href="#container-6">Money</a></button>
    </div>
 </div>
 
+<div id="container-6">
+    <div class="play">Play around with the model</div> 
+    <br>
+    <div class="modelview">
+    <model-viewer id="car" alt="Car" src="assets/SportsCar.glb" shadow-intensity="1" camera-controls touch-action="pan-y"></model-viewer>
+    </div>
+    <a class="option" href="#final">
+    <div class="notes">
+        <div class="text">
+           
+            After Exploring
+            <br>
+            Close your eyes
+            <br>
+            Try to visualise as if you've got the car
+            <br>
+            How do you feel? Who are you with? Who do you first call to tell about the car?
+            <br>
+            Try to go as deep as possible with your emotions - the joy, wonder!
+   
+        </div>
+    </div>
+</a>
 </div>
+<div id="final">
+    <div class="end">You have aligned with your dream! Congratulations</div>
+    <br>
+    <br>
+    <br>
+    <a class="reminder" href="#container-1">Maintain your frequency and keep taking action towards your dream</a>
+</div>
+</div>
+
 
 <script src="script.js"></script>
 </body>

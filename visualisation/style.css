@@ -7,11 +7,16 @@
   }
   #container{
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     background-image: linear-gradient(to bottom right,#1E6FF0, #F0EE7E);
   }
 
 #container-1{
+    height: 100vh;
+    width: 100wh;
+    background-image: linear-gradient(to bottom right,#1E6FF0, #F0EE7E);
+  }
+  #final{
     height: 100vh;
     width: 100wh;
     background-image: linear-gradient(to bottom right,#1E6FF0, #F0EE7E);
@@ -38,7 +43,7 @@ a.subtitle{
 }
 #container-2{
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     background-image: linear-gradient(to bottom right,#699FE7, #F0EE7E);
   }
   .moods{
@@ -65,7 +70,7 @@ a.option{
 }
   #container-3{
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
     background-image: linear-gradient(to bottom right,#70A3E2, #DAE18F);
   }
   h2{
@@ -84,7 +89,7 @@ margin-bottom: 250px;
 }
 #container-4{
   height: 100vh;
-  width: 100wh;
+  width: 100vw;
   background-image: linear-gradient(to bottom right,#5D98F0, #E5E787);
 }
 .structure{
@@ -93,7 +98,7 @@ margin-bottom: 250px;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   width: 80%;
   max-width: 600px;
   height: 500px;
@@ -112,7 +117,7 @@ margin-bottom: 250px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 1.2rem;
+  font-size: 22px;
   font-family: italiana;
 }
 
@@ -130,7 +135,7 @@ margin-bottom: 250px;
 
 #container-5{
   height: 100vh;
-  width: 100wh;
+  width: 100vw;
   background-image: linear-gradient(to bottom right,#5292F9, #F0EE7E);
 }
 .dreams{
@@ -138,7 +143,59 @@ margin-bottom: 250px;
   padding: 10%;
   justify-content: space-around;
 }
+#container-6{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom right,#1E6FF0, #F0EE7E);
+}
 
+.play{
+  margin: auto;
+    width: 800px; 
+    padding-top: 80px;
+   text-align: center;
+    font-family: italiana;
+    font-weight: 200;
+    font-size: 30px;
+}
+.modelview{
+  margin-left: 400px;
+}
 #car{
-    display: none;
+  width: 700px;
+  height: 300px;
+}
+.notes{
+  margin: auto;
+  margin-top: 80px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  width: 80%;
+  max-width: 600px;
+}
+.text{
+   text-align: center;
+    font-family: afacad;
+    font-weight: 200;
+    font-size: 20px;
+}
+.end{
+  margin: auto;
+  width: 800px; 
+  padding-top: 200px;
+ text-align: center;
+  font-family: italiana;
+  font-weight: 200;
+  font-size: 60px;
+}
+a.reminder{
+  text-decoration: none;
+  color: black;
+  margin-left: 320px;
+  text-align: center;
+    font-family: afacad;
+    font-weight: 200;
+    font-size: 30px;
 }
