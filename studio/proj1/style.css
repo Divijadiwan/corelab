@@ -11,15 +11,14 @@ body {
     height: 250px;
     width: 250px;
     position:absolute;
-    left:50%;
-    top: 38%;
+    left:53%;
+    top: 36%;
     opacity:70% ;
     background-color: plum;
+	  transform: all 0.5s;
   } 
   #fun:hover{
-    animation-name: medium;
-    animation-duration: 0.75s;
-    animation-iteration-count: infinite;
+    scale(1.3);
   }
 
   #spiritual{
