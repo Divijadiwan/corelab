@@ -1,4 +1,3 @@
-
 body {
 	background: #26263D;
 }
@@ -19,6 +18,9 @@ body {
   } 
   #fun:hover{
     transform: scale(1.2);
+    box-shadow:
+     0 0 60px 5px #f8cdf8,
+    0 0 100px 10px #dda0dd;
   }
 
   #spiritual{
@@ -28,13 +30,16 @@ body {
     left:55%;
     top: 20%;
     opacity: 70% ;
-    background-color: rgb(255, 255, 134);
+    background-color: #ffff86;
     animation-name: small;
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
   #spiritual:hover{
     transform: scale(1.2);
+    box-shadow:
+    0 0 60px 5px #f8f8be,
+   0 0 100px 10px #ffff86;
   }
   #calm{
     height: 300px;
@@ -43,13 +48,16 @@ body {
     left:40%;
     top: 20%;
     opacity: 70% ;
-    background-color: lightcyan;
+    background-color: #e0ffff;
     animation-name: largest;
     animation-duration: 4s;
     animation-iteration-count: infinite;
   } 
 #calm:hover{
      transform: scale(1.2);
+     box-shadow:
+     0 0 60px 5px #e0ffff,
+    0 0 100px 10px #9fcaca;
   }
 
   #confident{
@@ -59,13 +67,16 @@ body {
     left:43%;
     top: 40%;
     opacity:70% ;
-    background-color: lightgrey;
+    background-color: #d3d3d3;
     animation-name: large;
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
   #confident:hover{
     transform: scale(1.2);
+    box-shadow:
+    0 0 60px 5px #efecec,
+   0 0 100px 10px #706f6f;
   }
   #romantic{
     height: 250px;
@@ -74,10 +85,13 @@ body {
     left:30%;
     top: 40%;
     opacity: 70% ;
-    background-color: pink;
+    background-color: #ffc0cb;
 }
   #romantic:hover{
      transform: scale(1.2);
+     box-shadow:
+     0 0 60px 5px #f7d4d9,
+    0 0 100px 10px #ffc0cb;
   }
 
 @keyframes medium {
