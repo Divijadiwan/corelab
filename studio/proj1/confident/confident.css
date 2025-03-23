@@ -95,7 +95,7 @@ body {
   }
   
   button:hover {
-    background-color: rgba(164, 176, 181, 0.613);
+    scale: 1.2;
   }
   
   input[type="range"] {
