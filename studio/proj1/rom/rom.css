@@ -95,7 +95,7 @@ body {
   }
   
   button:hover {
-    background-color: lightcoral;
+    scale: 1.2;
   }
   
   input[type="range"] {
