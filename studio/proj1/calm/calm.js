@@ -13,10 +13,10 @@ window.onload = function() {
     playPauseBtn.addEventListener('click', function() {
       if (isPlaying) {
         audioPlayer.pause();
-        playPauseBtn.textContent = 'Play';
+        playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
       } else {
         audioPlayer.play();
-        playPauseBtn.textContent = 'Pause';
+        playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
       }
       isPlaying = !isPlaying;
     });
@@ -39,7 +39,7 @@ window.onload = function() {
       audioPlayer.src = songSrc;
       currentSongDisplay.textContent = `Now playing: ${songName}`;
       audioPlayer.play();
-      playPauseBtn.textContent = 'Pause';
+      playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
       isPlaying = true;
     };
   
