@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(198, 226, 236);
+    background-color: #c6e2ec;
     margin: 0;
   }
 
@@ -95,7 +95,7 @@ body {
   }
   
   button:hover {
-    background-color: #83b8f0;
+    scale: 1.2;
   }
   
   input[type="range"] {
@@ -104,7 +104,7 @@ body {
     opacity: 0.7;
   }
   #volume-control{
-    background-color: #9ec5ef;
+    background-color: #c6e2ec;
   }
   
   #current-song, #current-time {
