@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(248, 229, 248);
+    background-color: #f8e5f8;
     margin: 0;
   }
 
@@ -95,14 +95,17 @@ body {
   }
   
   button:hover {
-    background-color: rgb(241, 190, 241);
+    scale: 1.2;
   }
   
   input[type="range"] {
     width: 100%;
     margin-top: 10px;
     opacity: 0.7;
+
   }
+
+  
 
   #current-song, #current-time {
     margin-top: 15px;
